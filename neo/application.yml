@@ -1,7 +1,7 @@
 spring:
   application:
-    name: shopeasy-test
+    name: neo
 server:
   port: 8081
   servlet:
-    context-path: /shopeasy
+    context-path: /neo
