@@ -12,5 +12,5 @@ eureka:
         defaultZone: http://{HOST-NAME:localhost}:8761/neoin/eureka/
         registerWithEureka: true
         fetchRegistry: true
-     instance:
+      instance:
         preferIpAddress: true
