@@ -5,7 +5,7 @@ spring:
     gateway:
       routes:
         - id: shop
-          uri: http://localhost:8081/
+          uri: http://localhost:8080/
           predicates:
             - Path=/neo/**
 server:
