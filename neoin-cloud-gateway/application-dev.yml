@@ -1,6 +1,13 @@
 spring:
   application:
     name: neoin-cloud-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: shop
+          uri: http://localhost:8081/
+          predicates:
+            - Path=/neo/**
 server:
   port: ${GATEWAY_PORT:8088}
   servlet:
