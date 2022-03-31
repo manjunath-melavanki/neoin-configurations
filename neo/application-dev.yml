@@ -23,3 +23,8 @@ eureka:
       fetchRegistry: true
   instance:
     preferIpAddress: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operationsSorter: method
