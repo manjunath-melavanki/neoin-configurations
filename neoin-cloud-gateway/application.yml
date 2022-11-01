@@ -5,7 +5,7 @@ spring:
     gateway:
       routes:
         - id: shop
-          uri: lb://test-service
+          uri: lb://neo
           predicates:
             - Path=/neo/**
 server:
