@@ -18,7 +18,7 @@ eureka:
   enabled: true
   client:
     serviceUrl:
-      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+      defaultZone: ${EUREKA_URI:http://neoin-eureka-server:8761/eureka}
       registerWithEureka: true
       fetchRegistry: true
   instance:
